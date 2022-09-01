@@ -1,0 +1,72 @@
+＃この.gitignoreファイルは、Unity本盤のルートに配置する
+＃＃
+＃https：//github.com/github/gitignore/blob/main/Unity.gitignoreから
+＃＃
+/[ Ll ]ibrary/
+/[ Tt ]emp/
+/[ Oo ]bj/
+/[ Bb ]uild/
+/[ Bb ]uilds/
+/[ Ll ]ogs/
+/[ Uu ]ser[ Ss ]ettings/
+
+＃MemoryCapturesの取得がなりある可能性があります。
+＃極秘事もれたれある性があります
+/[ Mm ]emoryCaptures/
+
+＃複製の最適性があります
+/[ Rr ]ecordings/
+
+＃サッカーストアプラグインを無視する属性は、この行のコメントを聞きします
+＃/[aa]ssets/AssetStoreTools*
+
+＃自動生成されたJetbrainsRiderプラグイン
+/[ Aa ]ssets/プラグイン/編/JetBrains*
+
+＃VisualStudioキャッシュ
+.vs/
+
+＃Gradleキャッシュ
+.gradle/
+
+＃自動生成されたVS / MD /領事館医学博士
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+.opendb
+.VC.db
+
+＃ Unity3Dでされたメタファイル
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+＃クラッシュレポートでUnity3Dが生成したファイル
+sysinfo.txt
+
+＃ビルド
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+＃Crashlyticsで生成されたファイル
+cracklytics-build.properties
+
+＃パックされたアドレス可能
+/ [ Aa ] ssets / [ Aa ] ddressable [ Aa ] ssets [ Dd ] ata / * / * .bin *
+
+＃一時的に自動生成されたAndroidアセット
+/ [ Aa ] ssets / [ Ss ] treamingAssets / aa.meta
+/ [ Aa ] ssets / [ Ss ] treamingAssets / aa / *
